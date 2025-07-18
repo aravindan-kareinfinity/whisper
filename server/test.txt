@@ -1,1 +1,0 @@
-Hello! This is a test of the Whisper transcription system. We are testing how well it can transcribe spoken English. 

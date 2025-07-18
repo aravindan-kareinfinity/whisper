@@ -1,0 +1,202 @@
+2025-07-17 10:48:11 - INFO - Loading Whisper model: medium.en
+2025-07-17 10:48:27 - INFO - Whisper model loaded successfully
+2025-07-17 10:48:29 - INFO - Starting Whisper Real-time Transcription API server
+2025-07-17 10:48:30 - INFO - Audio processing thread started
+2025-07-17 11:09:56 - INFO - === NEW SESSION STARTED: 913b9d2c ===
+2025-07-17 11:09:56 - INFO - [SESSION 913b9d2c] Audio directory created: audio/session_913b9d2c
+2025-07-17 11:09:56 - INFO - [PROCESSOR] Registered session 913b9d2c - Total active sessions: 1
+2025-07-17 11:09:56 - INFO - [SESSION 913b9d2c] MESSAGE 1 RECEIVED - Type: ping
+2025-07-17 11:09:57 - INFO - === NEW SESSION STARTED: 28671edb ===
+2025-07-17 11:09:57 - INFO - [SESSION 28671edb] Audio directory created: audio/session_28671edb
+2025-07-17 11:09:57 - INFO - [PROCESSOR] Registered session 28671edb - Total active sessions: 2
+2025-07-17 11:09:57 - INFO - [SESSION 28671edb] MESSAGE 1 RECEIVED - Type: ping
+2025-07-17 11:09:58 - WARNING - [SESSION 913b9d2c] CLIENT DISCONNECTED - Total messages: 1, Processed chunks: 0, Time: 2025-07-17 11:09:58
+2025-07-17 11:09:58 - INFO - [PROCESSOR] Marked websocket as disconnected for session 913b9d2c
+2025-07-17 11:09:59 - WARNING - [SESSION 28671edb] CLIENT DISCONNECTED - Total messages: 1, Processed chunks: 0, Time: 2025-07-17 11:09:59
+2025-07-17 11:09:59 - INFO - [PROCESSOR] Marked websocket as disconnected for session 28671edb
+2025-07-17 11:10:39 - INFO - === NEW SESSION STARTED: 5b555d6f ===
+2025-07-17 11:10:39 - INFO - [SESSION 5b555d6f] Audio directory created: audio/session_5b555d6f
+2025-07-17 11:10:39 - INFO - [PROCESSOR] Registered session 5b555d6f - Total active sessions: 3
+2025-07-17 11:10:39 - INFO - [SESSION 5b555d6f] MESSAGE 1 RECEIVED - Type: ping
+2025-07-17 11:10:41 - WARNING - [SESSION 5b555d6f] CLIENT DISCONNECTED - Total messages: 1, Processed chunks: 0, Time: 2025-07-17 11:10:41
+2025-07-17 11:10:41 - INFO - [PROCESSOR] Marked websocket as disconnected for session 5b555d6f
+2025-07-17 11:11:13 - INFO - === NEW SESSION STARTED: d2d4b9be ===
+2025-07-17 11:11:13 - INFO - [SESSION d2d4b9be] Audio directory created: audio/session_d2d4b9be
+2025-07-17 11:11:13 - INFO - [PROCESSOR] Registered session d2d4b9be - Total active sessions: 4
+2025-07-17 11:11:16 - INFO - [SESSION d2d4b9be] MESSAGE 1 RECEIVED - Type: audio
+2025-07-17 11:11:16 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 1 RECEIVED - Size: 89644 bytes, Time: 2025-07-17 11:11:16
+2025-07-17 11:11:16 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 1 SAVED - File: chunk_1_20250717_111116_652.wav
+2025-07-17 11:11:16 - INFO - [PROCESSOR] Added chunk 1 to queue for session d2d4b9be - Queue size: 1
+2025-07-17 11:11:16 - INFO - [PROCESSOR] Processing chunk 1 for session d2d4b9be
+2025-07-17 11:11:19 - INFO - [SESSION d2d4b9be] MESSAGE 2 RECEIVED - Type: audio
+2025-07-17 11:11:19 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 2 RECEIVED - Size: 87084 bytes, Time: 2025-07-17 11:11:19
+2025-07-17 11:11:19 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 2 SAVED - File: chunk_2_20250717_111119_694.wav
+2025-07-17 11:11:19 - INFO - [PROCESSOR] Added chunk 2 to queue for session d2d4b9be - Queue size: 1
+2025-07-17 11:11:22 - INFO - [SESSION d2d4b9be] MESSAGE 3 RECEIVED - Type: audio
+2025-07-17 11:11:22 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 3 RECEIVED - Size: 87084 bytes, Time: 2025-07-17 11:11:22
+2025-07-17 11:11:22 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 3 SAVED - File: chunk_3_20250717_111122_720.wav
+2025-07-17 11:11:22 - INFO - [PROCESSOR] Added chunk 3 to queue for session d2d4b9be - Queue size: 2
+2025-07-17 11:11:25 - INFO - [SESSION d2d4b9be] MESSAGE 4 RECEIVED - Type: audio
+2025-07-17 11:11:25 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 4 RECEIVED - Size: 87084 bytes, Time: 2025-07-17 11:11:25
+2025-07-17 11:11:25 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 4 SAVED - File: chunk_4_20250717_111125_679.wav
+2025-07-17 11:11:25 - INFO - [PROCESSOR] Added chunk 4 to queue for session d2d4b9be - Queue size: 3
+2025-07-17 11:11:27 - INFO - [BACKGROUND] Output saved - JSON: chunk_1_d2d4b9be_20250717_111127_174.json, Transcription appended to: transcription_session_d2d4b9be.txt
+2025-07-17 11:11:27 - INFO - [PROCESSOR] Message queued for session d2d4b9be, chunk 1
+2025-07-17 11:11:27 - INFO - [PROCESSOR] Chunk 1 processed - Text: 'Hello, hello, hello, hello.'
+2025-07-17 11:11:27 - INFO - [PROCESSOR] Session d2d4b9be progress: 1/4 chunks processed
+2025-07-17 11:11:27 - INFO - [PROCESSOR] Processing chunk 2 for session d2d4b9be
+2025-07-17 11:11:27 - INFO - [SESSION d2d4b9be] Sent pending message: Hello, hello, hello, hello.
+2025-07-17 11:11:28 - INFO - [SESSION d2d4b9be] MESSAGE 5 RECEIVED - Type: audio
+2025-07-17 11:11:28 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 5 RECEIVED - Size: 87084 bytes, Time: 2025-07-17 11:11:28
+2025-07-17 11:11:28 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 5 SAVED - File: chunk_5_20250717_111128_663.wav
+2025-07-17 11:11:28 - INFO - [PROCESSOR] Added chunk 5 to queue for session d2d4b9be - Queue size: 3
+2025-07-17 11:11:31 - INFO - [SESSION d2d4b9be] MESSAGE 6 RECEIVED - Type: audio
+2025-07-17 11:11:31 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 6 RECEIVED - Size: 87084 bytes, Time: 2025-07-17 11:11:31
+2025-07-17 11:11:31 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 6 SAVED - File: chunk_6_20250717_111131_689.wav
+2025-07-17 11:11:31 - INFO - [PROCESSOR] Added chunk 6 to queue for session d2d4b9be - Queue size: 4
+2025-07-17 11:11:33 - INFO - [BACKGROUND] Output saved - JSON: chunk_2_d2d4b9be_20250717_111133_948.json, Transcription appended to: transcription_session_d2d4b9be.txt
+2025-07-17 11:11:33 - INFO - [PROCESSOR] Message queued for session d2d4b9be, chunk 2
+2025-07-17 11:11:33 - INFO - [PROCESSOR] Chunk 2 processed - Text: '1, 2, 3, 4...'
+2025-07-17 11:11:33 - INFO - [PROCESSOR] Session d2d4b9be progress: 2/6 chunks processed
+2025-07-17 11:11:34 - INFO - [PROCESSOR] Processing chunk 3 for session d2d4b9be
+2025-07-17 11:11:34 - INFO - [SESSION d2d4b9be] Sent pending message: 1, 2, 3, 4...
+2025-07-17 11:11:34 - INFO - [SESSION d2d4b9be] MESSAGE 7 RECEIVED - Type: audio
+2025-07-17 11:11:34 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 7 RECEIVED - Size: 88364 bytes, Time: 2025-07-17 11:11:34
+2025-07-17 11:11:34 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 7 SAVED - File: chunk_7_20250717_111134_715.wav
+2025-07-17 11:11:34 - INFO - [PROCESSOR] Added chunk 7 to queue for session d2d4b9be - Queue size: 4
+2025-07-17 11:11:37 - INFO - [SESSION d2d4b9be] MESSAGE 8 RECEIVED - Type: audio
+2025-07-17 11:11:37 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 8 RECEIVED - Size: 87084 bytes, Time: 2025-07-17 11:11:37
+2025-07-17 11:11:37 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 8 SAVED - File: chunk_8_20250717_111137_670.wav
+2025-07-17 11:11:37 - INFO - [PROCESSOR] Added chunk 8 to queue for session d2d4b9be - Queue size: 5
+2025-07-17 11:11:40 - INFO - [SESSION d2d4b9be] MESSAGE 9 RECEIVED - Type: audio
+2025-07-17 11:11:40 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 9 RECEIVED - Size: 87084 bytes, Time: 2025-07-17 11:11:40
+2025-07-17 11:11:40 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 9 SAVED - File: chunk_9_20250717_111140_741.wav
+2025-07-17 11:11:40 - INFO - [PROCESSOR] Added chunk 9 to queue for session d2d4b9be - Queue size: 6
+2025-07-17 11:11:43 - INFO - [SESSION d2d4b9be] MESSAGE 10 RECEIVED - Type: ping
+2025-07-17 11:11:43 - INFO - [SESSION d2d4b9be] MESSAGE 11 RECEIVED - Type: audio
+2025-07-17 11:11:43 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 10 RECEIVED - Size: 85804 bytes, Time: 2025-07-17 11:11:43
+2025-07-17 11:11:43 - INFO - [SESSION d2d4b9be] AUDIO CHUNK 10 SAVED - File: chunk_10_20250717_111143_725.wav
+2025-07-17 11:11:43 - INFO - [PROCESSOR] Added chunk 10 to queue for session d2d4b9be - Queue size: 7
+2025-07-17 11:11:43 - WARNING - [SESSION d2d4b9be] CLIENT DISCONNECTED - Total messages: 11, Processed chunks: 10, Time: 2025-07-17 11:11:43
+2025-07-17 11:11:43 - INFO - [PROCESSOR] Marked websocket as disconnected for session d2d4b9be
+2025-07-17 11:11:44 - INFO - [BACKGROUND] Output saved - JSON: chunk_3_d2d4b9be_20250717_111144_539.json, Transcription appended to: transcription_session_d2d4b9be.txt
+2025-07-17 11:11:44 - INFO - [PROCESSOR] Websocket not active for session d2d4b9be, skipping send
+2025-07-17 11:11:44 - INFO - [PROCESSOR] Chunk 3 processed - Text: '6 8 9 10 11'
+2025-07-17 11:11:44 - INFO - [PROCESSOR] Session d2d4b9be progress: 3/10 chunks processed
+2025-07-17 11:11:45 - INFO - [PROCESSOR] Processing chunk 4 for session d2d4b9be
+2025-07-17 11:11:50 - INFO - === NEW SESSION STARTED: 444120db ===
+2025-07-17 11:11:50 - INFO - [SESSION 444120db] Audio directory created: audio/session_444120db
+2025-07-17 11:11:50 - INFO - [PROCESSOR] Registered session 444120db - Total active sessions: 5
+2025-07-17 11:11:53 - INFO - [SESSION 444120db] MESSAGE 1 RECEIVED - Type: audio
+2025-07-17 11:11:53 - INFO - [SESSION 444120db] AUDIO CHUNK 1 RECEIVED - Size: 90924 bytes, Time: 2025-07-17 11:11:53
+2025-07-17 11:11:53 - INFO - [SESSION 444120db] AUDIO CHUNK 1 SAVED - File: chunk_1_20250717_111153_565.wav
+2025-07-17 11:11:53 - INFO - [PROCESSOR] Added chunk 1 to queue for session 444120db - Queue size: 7
+2025-07-17 11:11:54 - WARNING - [SESSION 444120db] CLIENT DISCONNECTED - Total messages: 1, Processed chunks: 1, Time: 2025-07-17 11:11:54
+2025-07-17 11:11:54 - INFO - [PROCESSOR] Marked websocket as disconnected for session 444120db
+2025-07-17 11:11:56 - INFO - [BACKGROUND] Output saved - JSON: chunk_4_d2d4b9be_20250717_111156_778.json, Transcription appended to: transcription_session_d2d4b9be.txt
+2025-07-17 11:11:56 - INFO - [PROCESSOR] Websocket not active for session d2d4b9be, skipping send
+2025-07-17 11:11:56 - INFO - [PROCESSOR] Chunk 4 processed - Text: '13'
+2025-07-17 11:11:56 - INFO - [PROCESSOR] Session d2d4b9be progress: 4/10 chunks processed
+2025-07-17 11:11:57 - INFO - [PROCESSOR] Processing chunk 5 for session d2d4b9be
+2025-07-17 11:12:10 - INFO - [BACKGROUND] Output saved - JSON: chunk_5_d2d4b9be_20250717_111210_011.json, Transcription appended to: transcription_session_d2d4b9be.txt
+2025-07-17 11:12:10 - INFO - [PROCESSOR] Websocket not active for session d2d4b9be, skipping send
+2025-07-17 11:12:10 - INFO - [PROCESSOR] Chunk 5 processed - Text: 'Forgot to.'
+2025-07-17 11:12:10 - INFO - [PROCESSOR] Session d2d4b9be progress: 5/10 chunks processed
+2025-07-17 11:12:10 - INFO - [PROCESSOR] Processing chunk 6 for session d2d4b9be
+2025-07-17 11:13:21 - INFO - [BACKGROUND] Output saved - JSON: chunk_6_d2d4b9be_20250717_111321_141.json, Transcription appended to: transcription_session_d2d4b9be.txt
+2025-07-17 11:13:21 - INFO - [PROCESSOR] Websocket not active for session d2d4b9be, skipping send
+2025-07-17 11:13:21 - INFO - [PROCESSOR] Chunk 6 processed - Text: 'competitors.'
+2025-07-17 11:13:21 - INFO - [PROCESSOR] Session d2d4b9be progress: 6/10 chunks processed
+2025-07-17 11:13:21 - INFO - [PROCESSOR] Processing chunk 7 for session d2d4b9be
+2025-07-17 11:13:37 - INFO - === NEW SESSION STARTED: 7b7f26cc ===
+2025-07-17 11:13:37 - INFO - [SESSION 7b7f26cc] Audio directory created: audio/session_7b7f26cc
+2025-07-17 11:13:37 - INFO - [PROCESSOR] Registered session 7b7f26cc - Total active sessions: 6
+2025-07-17 11:13:40 - INFO - [SESSION 7b7f26cc] MESSAGE 1 RECEIVED - Type: audio
+2025-07-17 11:13:40 - INFO - [SESSION 7b7f26cc] AUDIO CHUNK 1 RECEIVED - Size: 89644 bytes, Time: 2025-07-17 11:13:40
+2025-07-17 11:13:40 - INFO - [SESSION 7b7f26cc] AUDIO CHUNK 1 SAVED - File: chunk_1_20250717_111340_335.wav
+2025-07-17 11:13:40 - INFO - [PROCESSOR] Added chunk 1 to queue for session 7b7f26cc - Queue size: 5
+2025-07-17 11:13:43 - INFO - [SESSION 7b7f26cc] MESSAGE 2 RECEIVED - Type: audio
+2025-07-17 11:13:43 - INFO - [SESSION 7b7f26cc] AUDIO CHUNK 2 RECEIVED - Size: 87084 bytes, Time: 2025-07-17 11:13:43
+2025-07-17 11:13:43 - INFO - [SESSION 7b7f26cc] AUDIO CHUNK 2 SAVED - File: chunk_2_20250717_111343_374.wav
+2025-07-17 11:13:43 - INFO - [PROCESSOR] Added chunk 2 to queue for session 7b7f26cc - Queue size: 6
+2025-07-17 11:13:46 - INFO - [SESSION 7b7f26cc] MESSAGE 3 RECEIVED - Type: audio
+2025-07-17 11:13:46 - INFO - [SESSION 7b7f26cc] AUDIO CHUNK 3 RECEIVED - Size: 88364 bytes, Time: 2025-07-17 11:13:46
+2025-07-17 11:13:46 - INFO - [SESSION 7b7f26cc] AUDIO CHUNK 3 SAVED - File: chunk_3_20250717_111346_396.wav
+2025-07-17 11:13:46 - INFO - [PROCESSOR] Added chunk 3 to queue for session 7b7f26cc - Queue size: 7
+2025-07-17 11:13:49 - INFO - [SESSION 7b7f26cc] MESSAGE 4 RECEIVED - Type: audio
+2025-07-17 11:13:49 - INFO - [SESSION 7b7f26cc] AUDIO CHUNK 4 RECEIVED - Size: 85804 bytes, Time: 2025-07-17 11:13:49
+2025-07-17 11:13:49 - INFO - [SESSION 7b7f26cc] AUDIO CHUNK 4 SAVED - File: chunk_4_20250717_111349_408.wav
+2025-07-17 11:13:49 - INFO - [PROCESSOR] Added chunk 4 to queue for session 7b7f26cc - Queue size: 8
+2025-07-17 11:13:52 - INFO - [SESSION 7b7f26cc] MESSAGE 5 RECEIVED - Type: audio
+2025-07-17 11:13:52 - INFO - [SESSION 7b7f26cc] AUDIO CHUNK 5 RECEIVED - Size: 87084 bytes, Time: 2025-07-17 11:13:52
+2025-07-17 11:13:52 - INFO - [SESSION 7b7f26cc] AUDIO CHUNK 5 SAVED - File: chunk_5_20250717_111352_427.wav
+2025-07-17 11:13:52 - INFO - [PROCESSOR] Added chunk 5 to queue for session 7b7f26cc - Queue size: 9
+2025-07-17 11:13:52 - WARNING - [SESSION 7b7f26cc] CLIENT DISCONNECTED - Total messages: 5, Processed chunks: 5, Time: 2025-07-17 11:13:52
+2025-07-17 11:13:52 - INFO - [PROCESSOR] Marked websocket as disconnected for session 7b7f26cc
+2025-07-17 11:14:38 - INFO - [BACKGROUND] Output saved - JSON: chunk_7_d2d4b9be_20250717_111438_044.json, Transcription appended to: transcription_session_d2d4b9be.txt
+2025-07-17 11:14:38 - INFO - [PROCESSOR] Websocket not active for session d2d4b9be, skipping send
+2025-07-17 11:14:38 - INFO - [PROCESSOR] Chunk 7 processed - Text: 'Can you hear the museum?'
+2025-07-17 11:14:38 - INFO - [PROCESSOR] Session d2d4b9be progress: 7/10 chunks processed
+2025-07-17 11:14:38 - INFO - [PROCESSOR] Processing chunk 8 for session d2d4b9be
+2025-07-17 11:15:50 - INFO - [BACKGROUND] Output saved - JSON: chunk_8_d2d4b9be_20250717_111550_299.json, Transcription appended to: transcription_session_d2d4b9be.txt
+2025-07-17 11:15:50 - INFO - [PROCESSOR] Websocket not active for session d2d4b9be, skipping send
+2025-07-17 11:15:50 - INFO - [PROCESSOR] Chunk 8 processed - Text: 'She made me flying!'
+2025-07-17 11:15:50 - INFO - [PROCESSOR] Session d2d4b9be progress: 8/10 chunks processed
+2025-07-17 11:15:50 - INFO - [PROCESSOR] Processing chunk 9 for session d2d4b9be
+2025-07-17 11:18:22 - INFO - [BACKGROUND] Output saved - JSON: chunk_9_d2d4b9be_20250717_111822_313.json, Transcription appended to: transcription_session_d2d4b9be.txt
+2025-07-17 11:18:22 - INFO - [PROCESSOR] Websocket not active for session d2d4b9be, skipping send
+2025-07-17 11:18:22 - INFO - [PROCESSOR] Chunk 9 processed - Text: 'Truly unlock LET Guerneco Children of San Pedro'
+2025-07-17 11:18:22 - INFO - [PROCESSOR] Session d2d4b9be progress: 9/10 chunks processed
+2025-07-17 11:18:22 - INFO - [PROCESSOR] Processing chunk 10 for session d2d4b9be
+2025-07-17 11:19:30 - INFO - [BACKGROUND] Output saved - JSON: chunk_10_d2d4b9be_20250717_111930_960.json, Transcription appended to: transcription_session_d2d4b9be.txt
+2025-07-17 11:19:30 - INFO - [PROCESSOR] Websocket not active for session d2d4b9be, skipping send
+2025-07-17 11:19:30 - INFO - [PROCESSOR] Chunk 10 processed - Text: 'hmm'
+2025-07-17 11:19:30 - INFO - [PROCESSOR] Session d2d4b9be progress: 10/10 chunks processed
+2025-07-17 11:19:31 - INFO - [PROCESSOR] Processing chunk 1 for session 444120db
+2025-07-17 11:20:21 - INFO - === NEW SESSION STARTED: 7b909e83 ===
+2025-07-17 11:20:21 - INFO - [SESSION 7b909e83] Audio directory created: audio/session_7b909e83
+2025-07-17 11:20:21 - INFO - [PROCESSOR] Registered session 7b909e83 - Total active sessions: 7
+2025-07-17 11:20:21 - INFO - [SESSION 7b909e83] MESSAGE 1 RECEIVED - Type: ping
+2025-07-17 11:20:23 - WARNING - [SESSION 7b909e83] CLIENT DISCONNECTED - Total messages: 1, Processed chunks: 0, Time: 2025-07-17 11:20:23
+2025-07-17 11:20:23 - INFO - [PROCESSOR] Marked websocket as disconnected for session 7b909e83
+2025-07-17 11:21:22 - INFO - [BACKGROUND] Output saved - JSON: chunk_1_444120db_20250717_112122_780.json, Transcription appended to: transcription_session_444120db.txt
+2025-07-17 11:21:22 - INFO - [PROCESSOR] Websocket not active for session 444120db, skipping send
+2025-07-17 11:21:22 - INFO - [PROCESSOR] Chunk 1 processed - Text: 'Hello, hello, hello.'
+2025-07-17 11:21:22 - INFO - [PROCESSOR] Session 444120db progress: 1/1 chunks processed
+2025-07-17 11:21:23 - INFO - [PROCESSOR] Processing chunk 1 for session 7b7f26cc
+2025-07-17 11:21:44 - INFO - [BACKGROUND] Output saved - JSON: chunk_1_7b7f26cc_20250717_112144_519.json, Transcription appended to: transcription_session_7b7f26cc.txt
+2025-07-17 11:21:44 - INFO - [PROCESSOR] Websocket not active for session 7b7f26cc, skipping send
+2025-07-17 11:21:44 - INFO - [PROCESSOR] Chunk 1 processed - Text: '1, 4, 5'
+2025-07-17 11:21:44 - INFO - [PROCESSOR] Session 7b7f26cc progress: 1/5 chunks processed
+2025-07-17 11:21:45 - INFO - [PROCESSOR] Processing chunk 2 for session 7b7f26cc
+2025-07-17 11:22:11 - INFO - [BACKGROUND] Output saved - JSON: chunk_2_7b7f26cc_20250717_112211_247.json, Transcription appended to: transcription_session_7b7f26cc.txt
+2025-07-17 11:22:11 - INFO - [PROCESSOR] Websocket not active for session 7b7f26cc, skipping send
+2025-07-17 11:22:11 - INFO - [PROCESSOR] Chunk 2 processed - Text: '6... 3... 2...'
+2025-07-17 11:22:11 - INFO - [PROCESSOR] Session 7b7f26cc progress: 2/5 chunks processed
+2025-07-17 11:22:11 - INFO - [PROCESSOR] Processing chunk 3 for session 7b7f26cc
+2025-07-17 11:22:35 - INFO - [BACKGROUND] Output saved - JSON: chunk_3_7b7f26cc_20250717_112235_432.json, Transcription appended to: transcription_session_7b7f26cc.txt
+2025-07-17 11:22:35 - INFO - [PROCESSOR] Websocket not active for session 7b7f26cc, skipping send
+2025-07-17 11:22:35 - INFO - [PROCESSOR] Chunk 3 processed - Text: '98'
+2025-07-17 11:22:35 - INFO - [PROCESSOR] Session 7b7f26cc progress: 3/5 chunks processed
+2025-07-17 11:22:35 - INFO - [PROCESSOR] Processing chunk 4 for session 7b7f26cc
+2025-07-17 11:22:36 - INFO - === NEW SESSION STARTED: 186955df ===
+2025-07-17 11:22:36 - INFO - [SESSION 186955df] Audio directory created: audio/session_186955df
+2025-07-17 11:22:36 - INFO - [PROCESSOR] Registered session 186955df - Total active sessions: 8
+2025-07-17 11:22:37 - WARNING - [SESSION 186955df] CLIENT DISCONNECTED - Total messages: 0, Processed chunks: 0, Time: 2025-07-17 11:22:37
+2025-07-17 11:22:37 - INFO - [PROCESSOR] Marked websocket as disconnected for session 186955df
+2025-07-17 11:22:38 - INFO - === NEW SESSION STARTED: 5293c48e ===
+2025-07-17 11:22:38 - INFO - [SESSION 5293c48e] Audio directory created: audio/session_5293c48e
+2025-07-17 11:22:38 - INFO - [PROCESSOR] Registered session 5293c48e - Total active sessions: 9
+2025-07-17 11:22:38 - INFO - [SESSION 5293c48e] MESSAGE 1 RECEIVED - Type: ping
+2025-07-17 11:22:40 - WARNING - [SESSION 5293c48e] CLIENT DISCONNECTED - Total messages: 1, Processed chunks: 0, Time: 2025-07-17 11:22:40
+2025-07-17 11:22:40 - INFO - [PROCESSOR] Marked websocket as disconnected for session 5293c48e
+2025-07-17 11:24:32 - INFO - [BACKGROUND] Output saved - JSON: chunk_4_7b7f26cc_20250717_112432_998.json, Transcription appended to: transcription_session_7b7f26cc.txt
+2025-07-17 11:24:32 - INFO - [PROCESSOR] Websocket not active for session 7b7f26cc, skipping send
+2025-07-17 11:24:33 - INFO - [PROCESSOR] Chunk 4 processed - Text: 'Hi Javier'
+2025-07-17 11:24:33 - INFO - [PROCESSOR] Session 7b7f26cc progress: 4/5 chunks processed
+2025-07-17 11:24:33 - INFO - [PROCESSOR] Processing chunk 5 for session 7b7f26cc
+2025-07-17 11:24:47 - INFO - [BACKGROUND] Output saved - JSON: chunk_5_7b7f26cc_20250717_112447_970.json, Transcription appended to: transcription_session_7b7f26cc.txt
+2025-07-17 11:24:47 - INFO - [PROCESSOR] Websocket not active for session 7b7f26cc, skipping send
+2025-07-17 11:24:47 - INFO - [PROCESSOR] Chunk 5 processed - Text: 'you'
+2025-07-17 11:24:47 - INFO - [PROCESSOR] Session 7b7f26cc progress: 5/5 chunks processed
+2025-07-17 13:15:38 - INFO - Audio processing thread stopped
